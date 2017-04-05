@@ -17,7 +17,6 @@ String serialString = "";
 int pixelColor[3];
 int rgbIndex = 0;
 int pixelIndex = 0;
-int isNumber;
 
 void setup() {
 	pixels.begin();
@@ -32,10 +31,8 @@ void setup() {
 void loop() {
 	while (Serial.available()) {
 		char serialIn = Serial.read();
-		Serial.println(serialIn);
 		if (isDigit(serialIn)) {
 			serialString += serialIn;
-			if (!isDigit(serialIn)) isNumber = false;
 		} else if (serialIn == '-') {
 			pixelColor[rgbIndex] = serialString.toInt();
 			serialString = "";
