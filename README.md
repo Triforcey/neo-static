@@ -7,4 +7,4 @@ The numbers by all means are true random numbers. Why technically it could be po
 
 Currently I'm running it on a 8x8 grid and the waves go diagnoaly, appearing to move from the bottom left to the top right. The colors definitely are random, and this method is still safe for encryption. It's fun to see what happens when using different electrical defices near it too.
 ## So is it random or not?
-It is not random, but it does appear to be much more reliable then pseudo random. Also the colors on the grid itself do appear to be random. The brightness is relative to the strength of the signal, but the color appears to have no corolation other then the exact moment it's measured.
+It is not random, but it does appear to be much more reliable than pseudo random. Also the colors on the grid itself do appear to be random. The brightness is relative to the strength of the signal, but the color appears to have no corolation other then the exact moment it's measured.
