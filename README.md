@@ -1,5 +1,5 @@
 # NEO-STATIC
-## This is just the front end for Arduino! To get the front end for the RPI, go to [neo-static-server](https://github.com/Triforcey/neo-static-server).
+## This is just the front end for Arduino! To get the back end for the RPI, go to [neo-static-server](https://github.com/Triforcey/neo-static-server).
 ## Original purpose
 To generate random numbers. It worked as expected. The random numbers were generated on a RPI3 using floating GPIO pins.
 ## What actually happened
